@@ -128,7 +128,7 @@ const NavBar: React.FC = () => {
       )}
       {isMobileMenuActive && (
         <nav
-          className={` max-lg:flex w-[100vw] flex-row justify-between fixed bottom-0 left-0 z-50 bg-darkblue p-10  text-center items-center transition-all ease-in-out duration-100 rounded-t-3xl bg-opacity-100 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] ${
+          className={` max-lg:flex w-[96vw] flex-row justify-between fixed -bottom-8 left-1/2 z-50 bg-darkblue px-6 py-3  text-center items-center rounded-2xl bg-opacity-90 -translate-x-1/2 -translate-y-1/2 shadow-black/[0.03] backdrop-blur-[0.5rem] border-white border-2 border-opacity-10 ${
             theme === "dark" ? "bg-darkblue" : "bg-white"
           }`}
         >
