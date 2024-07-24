@@ -4,7 +4,7 @@ This is a portfolio website built using React, Tailwind CSS, and TypeScript. The
 
 ## Demo
 
-<img src="../portfolio_site-main/src/assets/img/Screenshot.png" alt="Screenshot" width="1080"/>
+<img src="./Screenshot.png" alt="Screenshot" width="1080"/>
 
 You can also check out the live demo of the portfolio website [here]().
 
