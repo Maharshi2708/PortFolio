@@ -162,16 +162,16 @@ export const skillsDataWeb = [
         color: "#F7DF1E",
       },
       {
-        title: "TypeScript",
-        hash: "#TypeScript",
-        icon: typescripticon,
-        color: "#007ACC",
-      },
-      {
         title: "React",
         hash: "#React",
         icon: reacticon,
         color: "#61DAFB",
+      },
+      {
+        title: "TypeScript",
+        hash: "#TypeScript",
+        icon: typescripticon,
+        color: "#007ACC",
       },
       // {
       //   title: "Next.js",
@@ -272,25 +272,25 @@ export const quotesData = [
 
 export const aboutMeData = {
   title_EN: "About me",
-  description_EN: "A few code snippets about me",
+  description_EN: "A few code snippets and experiences.",
   paragraphs_EN: [
     {
-      title: "The Circuits of My Heart",
+      title: "Work Experience",
       description:
-        "When I'm not navigating the digital world, I explore the fascinating realm of technology and hardware. Circuits and solder joints are like puzzle pieces to me in an exciting adventure.",
+        "Successfully completed 1-month internship and developed a comprehensive Job Posting Portal that enables users to easily post and manage job listings, improving employer visibility and attracting qualified candidates through advanced filtering and search capabilities. Also achieved runner-up position in company-organized hackathon, securing second prize for featuring an innovative solution.",
       icon: hardwareicon,
+    },
+    {
+      title: "Attended DA-IICT Hackathon",
+      description:
+        "Swadheenta a DA-IICT Hackathon in Feb-2023, participated in it and achieved runner-up for having the strong problem solving skills and innovative solutions in a limited time period.",
+      icon: travelicon,
     },
     {
       title: "On the Fast Lane of Life",
       description:
         "Besides coding, I like to be on the fast lane - in the truest sense of the word. Cars are my passion, and I enjoy being on unknown roads with powerful machines.",
       icon: caricon,
-    },
-    {
-      title: "The Joy of Discovery as a Life Motto",
-      description:
-        "My journey as a web developer is only a part of my life path. I live by the motto that the adventure only begins when you leave the familiar behind. Discovering new places and cultures is my form of creative inspiration.",
-      icon: travelicon,
     },
   ],
 };
